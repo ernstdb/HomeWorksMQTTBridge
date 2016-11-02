@@ -14,6 +14,6 @@ Find the following line in HomeWorks.py and edit to suite.
 > h = HomeWorks(serial_port='/dev/ttyUSB0', broker='localhost', username='pi', password='homeworks')<br/>
 
 ## have HomeWorks.py autostart at boot (e.g. RaspberryPi/Debian)
-Copy homeworks.service to /etc/systemd/system<br/>
+Edit homeworks.service and then copy to /etc/systemd/system<br/>
 - sudo systemctl daemon-reload
 - sudo systemctl enable homeworks.service
